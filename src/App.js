@@ -1,9 +1,12 @@
-import Hello from './components/Hello'
+import React from 'react';
+import Navbar from './components/navbar';
+import GridLayout from './components/gridLayout';
 
 function App() {
   return (
-    <div className="App">
-      <Hello />
+    <div>
+      <Navbar />
+      <GridLayout />
     </div>
   );
 }
